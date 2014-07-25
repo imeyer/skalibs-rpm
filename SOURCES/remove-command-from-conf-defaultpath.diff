@@ -1,0 +1,9 @@
+diff -ur skalibs-1.6.0.0/conf-compile/conf-defaultpath skalibs-1.6.0.0.mine/conf-compile/conf-defaultpath
+--- skalibs-1.6.0.0.mine/conf-compile/conf-defaultpath	2014-05-14 15:20:07.000000000 -0400
++++ skalibs-1.6.0.0/conf-compile/conf-defaultpath	2014-07-23 22:18:16.372507630 -0400
+@@ -1,4 +1,4 @@
+-/command:/usr/bin:/bin
++/usr/bin:/bin
+ 
+ This will be the default executable search path used by pathexec_run()
+ when no PATH environment variable is defined. The value should not
